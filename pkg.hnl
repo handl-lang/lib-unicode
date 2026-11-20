@@ -1,1 +1,1 @@
-{ modules: ["unicode"] }
+{ modules: ["unicode"], description: "The unicode port — pure handl.", license: "MIT" }
