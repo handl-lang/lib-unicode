@@ -6,7 +6,7 @@
 
 [[repos]]
 name = "handl-lang/lib-unicode"
-dir = "/home/luis/GitHub/handl-lang/lib-unicode"
+dir = "~//GitHub/handl-lang/lib-unicode"
 branch = "refs/heads/main"
   [repos.runner]
   kind = "script"
