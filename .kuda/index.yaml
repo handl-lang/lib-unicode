@@ -1,19 +1,14 @@
 name: lib-unicode
 root: /home/luis/GitHub/handl-lang/lib-unicode
-purpose: ''
-modules:
-- handl-lib-unicode
-- lib-unicode
-commands:
-- cargo check
-- cargo test --workspace
+purpose: '`unicode` — Handl stdlib port (pure handl).'
+modules: []
+commands: []
+tree_digest: da39a3ee5e6b4b0d3255bfef95601890afd80709
 provenance:
   files:
-  - Cargo.toml
-  - src/lib.rs
+  - README.md
   hashes:
-  - 17f5f7bf2912c1c2778918b3e032f23b8afdf175
-  - 0b4c0be5f420ad4abeb5c4f13997ed0dd1d58f1a
-  commit_sha: 77e4c19acc5b46385aa5159930cac340cd565459
-  generated_at: '1792281231'
+  - aab40dafca580243d5f434951fdd54be45504b03
+  commit_sha: a0c6d37cfd79020c594aca06ede1f35a4f53e69f
+  generated_at: '1795484421'
   generator: kuda/0.1.0
