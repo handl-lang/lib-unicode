@@ -1,3 +1,30 @@
+# lib-unicode
+
+`unicode` — Handl stdlib port (pure handl).
+
+## Layout
+
+| path | role |
+| --- | --- |
+| `src/index.hnl` | the library |
+| `pkg.hnl` | package manifest — `modules: ["unicode"]` |
+| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+
+## Contract
+
+- Pure-handl unicode helpers; see `src/index.hnl` for the surface.
+  Backend `unicode_c` (`lib-unicode-c`) implements over ICU/`intl-c`.
+
+## Verification
+
+```bash
+HNL=../host-cli/target/debug/hnl scripts/hnl-gate.sh
+```
+
+## License
+
+MIT.
+
 <!-- myco:agent-awareness -->
 
 ## Agent awareness
