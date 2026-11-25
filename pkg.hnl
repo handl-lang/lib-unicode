@@ -1,1 +1,2 @@
-{ modules: ["unicode"], name: "unicode", description: "The unicode port — pure handl.", license: "MIT" }
+-- test_coverage "none": unicode.* contract axioms only — semantics live in the backend impls.
+{ modules: ["unicode"], name: "unicode", description: "The unicode port — pure handl.", license: "MIT", test_coverage: "none" }
